@@ -12,7 +12,7 @@
 
 2. 基础的语法和使用
 
-    - 和mysql的比较
+    和mysql的比较
     mongo | mysql
     -|-
     文档（document）| 记录（row）
