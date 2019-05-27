@@ -13,8 +13,8 @@
 2. 基础的语法和使用
 
     - 和mysql的比较<br >
-    mongo | mysql <br>
-    -|-<br>
-    文档（document）| 记录（row）<br>
-    集合（collection）| 表（table）<br>
-    数据库（database）| 数据库（database）
+    |mongo|mysql|
+    |:-|:-:|-:|
+    |文档（document）|记录（row）|
+    |集合（collection）| 表（table）|
+    |数据库（database）|数据库（database）|
