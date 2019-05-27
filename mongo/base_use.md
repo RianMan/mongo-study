@@ -11,10 +11,22 @@
 ---
 
 2. 基础的语法和使用
-
-    - 和mysql的比较
-    mongo | mysql
-    -|-
-    文档（document）| 记录（row）
-    集合（collection）| 表（table）
-    数据库（database）| 数据库（database）
+    <table>
+        <tr>
+            <th>mongo</th>
+            <th>mysql</th>
+        </tr>
+         <tr>
+            <th>文档（document）</th>
+            <th>记录（row）</th>
+        </tr>
+         <tr>
+            <th>集合（collection）</th>
+            <th>表（table）</th>
+        </tr>
+         <tr>
+            <th>数据库（database）</th>
+            <th>数据库（database）</th>
+        </tr>
+    </table>
+ 
