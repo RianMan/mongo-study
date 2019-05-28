@@ -84,4 +84,6 @@
 - populate可以进行连表查询 
 > Cart.findById('***').populate('user',{username:1}) 
 
+8. 通过使用koa和mongo进行数据的交互
+- 在koa里面，所有的访问数据库操作**都是异步的**，所以必须用await来等待执行结果的返回，必须结果回来以后在进行我们的路由跳转操作，被这个问题坑死了
 
