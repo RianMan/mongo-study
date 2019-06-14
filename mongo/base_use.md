@@ -87,3 +87,23 @@
 8. 通过使用koa和mongo进行数据的交互
 - 在koa里面，所有的访问数据库操作**都是异步的**，所以必须用await来等待执行结果的返回，必须结果回来以后在进行我们的路由跳转操作，被这个问题坑死了
 
+9. mongodb 配置文件的解释
+
+```
+    # 数据的存放地址
+    dbpath=/usr/local/mongodb/data
+    # 日志的存放地址
+    logpath=/usr/local/mongodb/mongod.log
+    # 以追加方式写入日志
+    logappend = true
+    # 允许其他的服务器连接此数据库，不配置的话只能本机连接
+    bind_ip=0.0.0.0
+    # 端口号
+    port = 27017
+    # 是否以守护进程方式运行
+    fork = true
+    # 是否以安全认证方式运行，默认是不认证的非安全方式
+    #auth = true
+```
+<b>通过mongoose连接远程服务器的时候，如果auth开启的很麻烦，还要配置密码用户名才能对数据进行操作</b>
+
